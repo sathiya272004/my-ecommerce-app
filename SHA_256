@@ -1,0 +1,41 @@
+C:\Users\sathiya>"C:\Program Files (x86)\Java\jre-1.8\bin\keytool.exe" -list -v -keystore %USERPROFILE%\.android\debug.keystore -alias androiddebugkey -storepass android
+Alias name: androiddebugkey
+Creation date: 31 Mar, 2025
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: CN=Sathiya, OU=Unknown, O=Unknown, L=Chennai, ST=Tamil Nadu, C=In
+Issuer: CN=Sathiya, OU=Unknown, O=Unknown, L=Chennai, ST=Tamil Nadu, C=In
+Serial number: 6b08b63d
+Valid from: Mon Mar 31 11:41:53 IST 2025 until: Fri Aug 16 11:41:53 IST 2052
+Certificate fingerprints:
+         SHA1: 22:67:4D:D6:0B:8A:BC:07:29:FD:78:D0:64:96:DA:CD:4B:62:90:70
+         SHA256: E4:57:B2:62:AF:94:E8:39:A3:AC:A2:7E:97:E7:7E:BF:0C:E5:A9:93:EE:2F:F7:4C:B4:E6:28:04:6D:8C:27:58
+Signature algorithm name: SHA256withRSA
+Subject Public Key Algorithm: 2048-bit RSA key
+Version: 3
+
+Extensions:
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: AE 47 F8 17 B3 CF CE 01   84 2C 3A AE 8E A1 86 CA  .G.......,:.....
+0010: 1F 03 E3 81                                        ....
+]
+]
+
+
+Warning:
+The JKS keystore uses a proprietary format. It is recommended to migrate to PKCS12 which is an industry standard format using "keytool -importkeystore -srckeystore C:\Users\sathiya\.android\debug.keystore -destkeystore C:\Users\sathiya\.android\debug.keystore -deststoretype pkcs12".
+
+
+
+
+
+OAuth client created
+The client ID and secret can always be accessed from Credentials in APIs & Services
+
+OAuth access is restricted to the test users  listed on your OAuth consent screen
+Client ID
+11497138227-ellrem0f91jle2fudmv7hnee0ec7s01v.apps.googleusercontent.com
